@@ -1,17 +1,13 @@
 # Ejemplo Spring Boot + Thymeleaf
 
 ## Descripción
-Este es un ejemplo de cómo usar Spring Boot, Thymeleaf y Bootstrap para hacer una página
-web.
+
+Este es un ejemplo de cómo usar Spring Boot, Thymeleaf y Bootstrap para hacer una página web.
 
 ## Links útiles
 
-[Spring]
-
-[Spring]: https://spring.io
-[Thymeleaf]
-
-[Thymeleaf]: https://www.thymeleaf.org/
-[Bootstrap]
-
-[Bootstrap]: https://getbootstrap.com/
+[Spring](https://spring.io)
+<br>
+[Thymeleaf](https://www.thymeleaf.org/)
+<br>
+[Bootstrap](https://getbootstrap.com/)
