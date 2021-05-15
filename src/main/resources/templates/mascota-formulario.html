@@ -66,11 +66,12 @@
             <label for="nombre">Nombre</label>
             <div class="invalid-feedback">El nombre es obligatorio</div>
         </div>
+        <!--  VER COMO CONECTAMOS LA LISTA LIBROS PARA ELEGIRLO CUANDO INGRESAMOS LA EDITORIAL  -->
         <div class="form-floating mb-3 col-xl-6">
-            <select id="dueno" class="form-select" aria-label="Elegir dueño" th:field="*{dueno}">
-                <option value="" selected>Elegir dueño</option>
-                <option th:each="usuario : ${usuarios}" th:text="|${usuario.nombre} ${usuario.apellido}|"
-                        th:value="${usuario.dni}"></option>
+            <select id="libro" class="form-select" aria-label="Elegir libro" th:field="*{libro}">
+                <option value="" selected>Elegir libro</option>
+                <option th:each="libro : ${libro}" th:text="|${libro.titulo}|"
+                        th:value="${libro.id}"></option>
             </select>
             <label for="dueno">Dueño</label>
         </div>
